@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Assignment 3</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="p-1">
+        <section class="bg-green-500 grid-rows-3 gap-3 ">
+            <nav>
+                <ul class="flex justify-end grid-cols-3 gap-3">
+                    <li class="px-3 "> <a href="#about me">About Me</a></li>
+                    <li class="px-3"> <a href="#experience">Experience</a></li>
+                    <li class="px-3"> <a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h1 class="text-center pt-10 text-3xl font-semibold">Hello, I'm Ardy</h1>
+            </div>
+            <div>
+                <img src="IMG_8657.jpg" alt="myfoto" class=" p-10 w-60 object-center max-w-full mx-auto"/>
+            </div>
+            <div>
+                <p class="pt-1.5 text-center py-10 font-semibold ">Saya adalah siswa Bootcamp kelas Front-End Engineering Ruangguru</p>
+            </div>
+        </section>
+        <article>
+            <div class="flex flex-wrap">
+                <h2 id="about me" class=" border-2 px-4 text-2xl p-5 w-auto flex-none w-6/12 lg:w-1/2 ">About Me</h1>
+                <p class="border-2 px-4 w-auto flex-1 p-5 lg:w-1/2 ">Saya adalah seorang mahasiswa prodi Sistem Informasi, yang selalu ingin memperluas pengalaman dan pengetahuan. Berpengetahuan 
+                    luas yang memiliki minat di bidang IT dan Teknologi masa kini, seperti Web Developer, Android Developer dan Data Analist. Saya juga 
+                    Mahasiswa yang disiplin dalam Akademik maupun Non Akademik.</p>
+            </div>
+            <div class="flex flex-wrap">
+                <h2 id="experience" class=" border-2 px-4 text-2xl w-auto p-5 flex-none w-6/12 lg:w-1/2">Pendidikan</h2>
+                <ul class="border-2 px-4 w-auto p-5 flex-1 lg:w-1/2">
+                    <li><h3>SMK Negeri 1 Sigli</h3></li>
+                    <p class="pl-4">Jurusan Teknik Komputer dan Jaringan</p>
+                    <li><h3 class="pt-5">Universitas Malikussaleh</h3></li>
+                    <p class="pl-4">Prodi Sistem Informasi</p>
+                </ul>
+            </div>
+            <div class="flex flex-wrap">
+                <h2 class="border-2 px-4 text-2xl p-5 w-auto flex-none w-6/12 lg:w-1/2">Pekerjaan</h2>
+                <ul class="border-2 px-4 w-auto p-5 flex-1 lg:w-1/2">
+                    <li><h3>Kampus Mengajar Agkatan 3 </h3></li>
+                    <p class="pl-4">Mengajar di salah satu SD Kota Lhokseumawe</p>
+                    <li><h3 class="pt-5">Teknisi Komputer di Toko Adhie Komputer</h3></li>
+                    <p class="pl-4">Menyelesaikan tugas Kerja Praktek di SMK</p>
+                </ul>
+            </div>
+            <footer class="flex flex-wrap">
+                    <h2 id="contact" class="border-2 px-4 text-2xl p-5 w-auto flex-none w-6/12 lg:w-1/2">Contact</h2>
+                <form class="border-2 px-4 w-auto p-5 flex-1 lg:w-1/2">
+                    <div class="border-2">
+                        <label  for="nama">Nama</label>
+                        <input id="nama" type="text"/>
+                    </div>
+                    <div class="border-2">
+                        <label for="pesan">Pesan</label>
+                        <textarea class= "col=14" rows="3" id="pesan"></textarea>
+                    </div>
+                    <div class="pt-2">
+                        <button class="bg-slate-600 p-1 hover:bg-slate-400 rounded-md " type="button">Submit</button>
+                    </div>
+                </form>
+            </footer>
+        </article>
+
+    </body>
+
+</html>
